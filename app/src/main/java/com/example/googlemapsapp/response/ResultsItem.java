@@ -14,7 +14,7 @@ public class ResultsItem{
 	private String icon;
 
 	@SerializedName("rating")
-	private int rating;
+	private double rating;
 
 	@SerializedName("photos")
 	private List<PhotosItem> photos;
@@ -68,11 +68,11 @@ public class ResultsItem{
 		return icon;
 	}
 
-	public void setRating(int rating){
+	public void setRating(double rating){
 		this.rating = rating;
 	}
 
-	public int getRating(){
+	public double getRating(){
 		return rating;
 	}
 
